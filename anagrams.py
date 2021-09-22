@@ -16,8 +16,10 @@ def isAnagram(str1,str2):
         string2=createDictionary(str2)
 
         for i in string1.keys():
+            if i not in str2:
+                return False
             if string1[i] != string2[i]:
                 return False
     return True
 
-print(isAnagram("abc","abc"))
+print(isAnagram("acb","abc"))
