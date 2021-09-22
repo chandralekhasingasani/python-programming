@@ -10,4 +10,4 @@ def calculate(str):
             consonants+=1
     return (vowels,consonants)
 
-print("nitish")
+print(calculate("nitish"))
