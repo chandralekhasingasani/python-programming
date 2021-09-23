@@ -9,6 +9,6 @@ def deleteRepeatedElements(list):
             dict[i]=1
     return list
 
-print(deleteRepeatedElements([2,3,4,2]))
+print(deleteRepeatedElements([2,3,4,2,4]))
 
 
