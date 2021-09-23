@@ -5,7 +5,6 @@ def fibbo(n):
         return 0
     elif n == 1:
         return 1
-    fib=1
     list=[0,1]
     for i in range(1,n-2+1):
         list.append(list[i]+list[i-1])
