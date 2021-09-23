@@ -1,5 +1,6 @@
 def reverselist(list):
-    for i in range(0,len(list)/2):
+    print(len(list)/2)
+    for i in range(0,int(len(list)/2)):
         temp=list[i]
         list[i]=list[len(list)-i-1]
         list[len(list)-i-1]=temp
