@@ -11,4 +11,4 @@ def largestElement(list):
             secondmax=i
     return (max,secondmax)
 
-print(largestElement[3,5,1,2])
+print(largestElement([3,5,1,2,6]))
