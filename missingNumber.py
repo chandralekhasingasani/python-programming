@@ -1,6 +1,6 @@
 def missingNumber(list):
     sum=0
-    for i in range[1,100]:
+    for i in range(1,101):
         sum+=i
     actualsum=0
     for i in list:
@@ -8,8 +8,6 @@ def missingNumber(list):
 
     return sum-actualsum
 
-
-list=[x for i in range[1,100]]
-missingNumber(list)
+print(missingNumber(list(range(1,100))))
 
 
