@@ -4,7 +4,7 @@ def deleteRepeatedElements(list):
     dict={}
     for i in range(0,len(list)):
         if list[i] in dict:
-            list.remove(list[i])
+            list.pop(i)
         else:
             dict[i]=1
     return list
