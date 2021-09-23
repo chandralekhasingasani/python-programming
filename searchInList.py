@@ -33,6 +33,7 @@ class List:
         while temp is not None:
             if temp.item == ele:
                 return True
+            temp=temp.next
         return False
 
 l=List()
@@ -40,7 +41,7 @@ l.addElementInListAtEnd(30)
 l.addElementInListAtEnd(20)
 l.addElementInListAtEnd(10)
 print(l.lenoflist())
-print(l.searchInlist(10))
+print(l.searchInlist(1))
 
 
 
