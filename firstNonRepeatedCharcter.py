@@ -12,4 +12,4 @@ def nonrepeating(str):
         if char[i] == 1:
             return i
 
-nonrepeating("chandralelha")
+print(nonrepeating("chandralelha"))
