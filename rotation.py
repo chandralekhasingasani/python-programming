@@ -5,7 +5,6 @@ def isrotated(str1,str2):
         return False
     else:
         org=str1+str1
-        print(org)
         if str2 in org:
             return True
     return False
