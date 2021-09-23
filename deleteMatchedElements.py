@@ -28,8 +28,8 @@ class List:
             if present.item in dict.keys():
                 preceeding.next=present.next
             else:
-                dict[present.value]=1
-                preceeding.next=present
+                dict[present.item]=1
+                preceeding=present
             present=present.next
 
 l=List()
@@ -37,7 +37,7 @@ l.addElementInListAtEnd(30)
 l.addElementInListAtEnd(20)
 l.addElementInListAtEnd(10)
 l.addElementInListAtEnd(30)
-l.printElements()
+#l.printElements()
 l.deleteMatchingElementsInList()
 l.printElements()
 
