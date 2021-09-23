@@ -11,4 +11,4 @@ def fibbo(n):
         list.append(list[i]+list[i-1])
     return list
 
-print(fibbo(5))
+print(fibbo(10))
